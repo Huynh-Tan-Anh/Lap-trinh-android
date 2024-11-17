@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="5mm">
+
+    <TextView
+        android:id="@+id/tvbai4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bài 4"
+        android:textColor="#FF0000"
+        android:background="#FFFF00"
+        android:layout_margin="16dp"
+        />
+
+    <TextView
+        android:id="@+id/textViewFahrenheitLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvbai4"
+        android:text="Fahrenheit:"
+        android:layout_margin="16dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextFahrenheit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewFahrenheitLabel"
+        android:hint="Enter temperature in Fahrenheit"
+        android:inputType="numberDecimal"
+        android:padding="8dp"
+        android:layout_margin="6dp"/>
+
+    <TextView
+        android:id="@+id/textViewCelsiusLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Celsius:"
+        android:layout_below="@id/editTextFahrenheit"
+        android:layout_margin="16dp"/>
+
+
+    <!-- EditText nhập độ Celsius -->
+    <EditText
+        android:id="@+id/editTextCelsius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewCelsiusLabel"
+        android:hint="Enter temperature in Celsius"
+        android:inputType="numberDecimal"
+        android:padding="8dp"
+        android:layout_margin="6dp"/>
+
+    <Button
+        android:id="@+id/btnConvertToFahrenheit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextCelsius"
+        android:text="Convert To Fahrenheit"
+
+        android:layout_margin="16dp"/>
+
+    <Button
+        android:id="@+id/btnConvertToCelsius"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnConvertToFahrenheit"
+        android:text="Convert To Celsius"
+        android:layout_margin="16dp"/>
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnConvertToCelsius"
+        android:text="Clear"
+        android:layout_margin="16dp"/>
+
+</RelativeLayout>

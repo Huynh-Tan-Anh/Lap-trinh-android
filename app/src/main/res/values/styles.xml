@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CalculatorButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">#FF333333</item> <!-- Nền nút -->
+        <item name="android:textColor">#FFFFFFFF</item> <!-- Màu chữ -->
+        <item name="android:textSize">24sp</item> <!-- Kích thước chữ -->
+        <item name="android:padding">10dp</item> <!-- Khoảng cách -->
+        <item name="android:layout_gravity" >center</item>
+    </style>
+
+</resources>

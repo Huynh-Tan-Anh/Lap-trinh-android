@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bai9">TH2</string>
+    <string-array name="bai9">
+        <item>Senior Programmer</item>
+        <item>Senior Sales</item>
+        <item>Junior Developer</item>
+        <item>Marketing Manager</item>
+    </string-array>
+</resources>
